@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Small C++ --- HanXiao's Blog
-subtitle: "山高月小，水落石出"
+title: Small CPP
+subtitle: "(山高月小，水落石出)"
 description: "Talk is cheap. Show me the code."
 keywords:
 author: Han Xiao
@@ -13,9 +13,9 @@ timezone: "Asia/Shanghai"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://www.smallcpp.com
-root: /
-permalink: wiki/:title/
+url: http://www.smallcpp.com/test-gh/
+root: /test-gh/
+permalink: :title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks

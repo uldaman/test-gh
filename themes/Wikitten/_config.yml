@@ -9,7 +9,7 @@ customize:
     enabled: true
     width: 40
     height: 40
-    url: /logo.png
+    url: /test-gh/logo.png
   profile:
     enabled: true # Whether to show profile bar
     avatar: /avatar.png
@@ -20,7 +20,7 @@ customize:
     follow: https://github.com/uldaman/
   highlight: monokai
   sidebar: left # sidebar position, options: left, right
-  category_perExpand: true # enable article categories list per expanding
+  category_perExpand: false # enable article categories list per expanding
   thumbnail: true # enable posts thumbnail, options: true, false
   favicon: /favicon.ico # path to favicon
   default_index_file: # if this, it will display at site index instead of default index page, eg: index.md
