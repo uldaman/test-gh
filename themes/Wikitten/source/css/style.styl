@@ -54,11 +54,18 @@ code
     clear: both
 
 .logo
-    width: logo-width
-    height: logo-height
-    background-repeat: no-repeat
-    background-image: url(logo-url)
-    background-size: logo-width logo-height
+    @media mq-normal
+        width: logo-width
+        height: logo-height
+        background-repeat: no-repeat
+        background-image: url(logo-url)
+        background-size: logo-width logo-height
+    @media mq-tablet
+        width: logo-width
+        height: logo-height
+        background-repeat: no-repeat
+        background-image: url(logo-url)
+        background-size: logo-width logo-height
 
 #container
     position: relative

@@ -29,8 +29,12 @@ $header-block-right
         display: inline-block
         padding-right: 0px
         .logo
-            margin-right: 5px
-            display: inline-block
+            @media mq-normal
+                margin-right: 5px
+                display: inline-block
+            @media mq-tablet
+                margin-right: 5px
+                display: inline-block
         .site-title
             font-size: 20px
             display: inline-block
