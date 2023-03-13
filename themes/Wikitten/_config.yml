@@ -34,11 +34,11 @@ customize:
 # Widgets
 widgets: # default use category only
   - category
+  - links
   - tag
   # - recent_posts
   # - archive
   # - tagcloud
-  # - links
 
 # Excerpt
 ## Auto creat excerpt with not <!--more-->
@@ -88,3 +88,7 @@ miscellaneous:
     twitter_id:
     google_plus:
   links:
+    blog: http://blog.smallcpp.cn
+    wiki: http://wiki.smallcpp.cn
+    old site: https://www.smallcpp.cn/old_pages
+    learning notes: https://zhuec.gitbook.io/learning-notes/

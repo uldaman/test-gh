@@ -158,5 +158,5 @@ theme: Wikitten
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: git@github.com:uldaman/test-gh.git
-  branch: gh-pages
+  repository: git@github.com:uldaman/uldaman.github.io.git
+  branch: published-site
