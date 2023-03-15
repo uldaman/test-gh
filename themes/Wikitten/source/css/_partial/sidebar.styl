@@ -1,9 +1,22 @@
 #sidebar
+    @media mq-mobile
+        display: none
+    @media mq-mini
+        display: none
     @media mq-normal
         column(sidebar-column)
     @media mq-tablet
         column(sidebar-column-tablet)
-
+    &.card
+        top: 60px
+        right: 15%
+        z-index: 999
+        display: block
+        min-width: 280px
+        @media mq-mobile
+            position: absolute
+        @media mq-mini
+            position: absolute
 
 .widget
     @extend $base-style

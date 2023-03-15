@@ -26,6 +26,13 @@
         </div>
     </div>
     <div id="main-nav-mobile" class="header-sub header-inner">
+        <div class="hamburger" onclick="hamburger(this)">
+            <div class="center">
+                <div class="hamburger1"></div>
+                <div class="hamburger2"></div>
+                <div class="hamburger3"></div>
+            </div>
+        </div>
         <table class="menu outer">
             <tr>
                 <% for (var i in theme.menu) { %>
@@ -38,3 +45,9 @@
         </table>
     </div>
 </header>
+
+<script type="text/javascript">
+    function hamburger(x) {
+        x.classList.toggle("change");
+    }
+</script>

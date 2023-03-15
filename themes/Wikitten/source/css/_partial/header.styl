@@ -131,6 +131,41 @@ $nav-link
         .fa
             line-height: logo-height
 
+.hamburger {
+    position: relative;
+    cursor: pointer;
+    float: left;
+    height: header-sub-height;
+    margin: 0 15px;
+}
+
+.hamburger .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(0, -50%);
+}
+
+.hamburger1, .hamburger2, .hamburger3 {
+    width: 15px;
+    height: 1px;
+    background-color: #333;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+.change .hamburger1 {
+    -webkit-transform: rotate(-45deg) translate(-3px, 4px);
+    transform: rotate(-45deg) translate(-3px, 4px);
+}
+
+.change .hamburger2 {opacity: 0;}
+
+.change .hamburger3 {
+    -webkit-transform: rotate(45deg) translate(-3px, -4px);
+    transform: rotate(45deg) translate(-3px, -4px);
+}
+
 #search-form-wrap
     @media mq-mini
         display: none
